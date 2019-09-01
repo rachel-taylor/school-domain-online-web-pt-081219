@@ -12,6 +12,6 @@ class School
   
   def add_student
     @add_student
-    binding.pry
+    # binding.pry
   end 
 end 

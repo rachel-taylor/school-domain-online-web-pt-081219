@@ -1,3 +1,4 @@
+require 'pry'
 class School
   attr_accessor :name, :roster
   def initialize(name)
@@ -11,5 +12,6 @@ class School
   
   def add_student
     @add_student
+    binding.pry
   end 
 end 
